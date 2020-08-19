@@ -1,1 +1,1 @@
-# This repository consists writeups for protostar and some explanation
+# This repository consists writeups and some explanation for protostar
