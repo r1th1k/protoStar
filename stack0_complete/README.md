@@ -24,9 +24,9 @@ you will get the following output:
 
 ```
 0x080483f4 <main+0>:	push   ebp                        #base pointer
-0x080483f5 <main+1>:	mov    ebp,esp					  #assign the value of stack pointer to base pointer
+0x080483f5 <main+1>:	mov    ebp,esp			  #assign the value of stack pointer to base pointer
 0x080483f7 <main+3>:	and    esp,0xfffffff0			  
-0x080483fa <main+6>:	sub    esp,0x60					  #sub 0x60 from esp
+0x080483fa <main+6>:	sub    esp,0x60			  #sub 0x60 from esp
 0x080483fd <main+9>:	mov    DWORD PTR [esp+0x5c],0x0   #modified variable set to 0
 0x08048405 <main+17>:	lea    eax,[esp+0x1c]
 0x08048409 <main+21>:	mov    DWORD PTR [esp],eax
@@ -38,7 +38,7 @@ you will get the following output:
 0x08048420 <main+44>:	call   0x804832c <puts@plt>       #print "you have changed the 'modified' variable\n"
 0x08048425 <main+49>:	jmp    0x8048433 <main+63>
 0x08048427 <main+51>:	mov    DWORD PTR [esp],0x8048529
-0x0804842e <main+58>:	call   0x804832c <puts@plt>		  #print "Try again?\n"
+0x0804842e <main+58>:	call   0x804832c <puts@plt>	  #print "Try again?\n"
 0x08048433 <main+63>:	leave  
 0x08048434 <main+64>:	ret    
 
